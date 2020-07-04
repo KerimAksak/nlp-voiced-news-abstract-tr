@@ -1,4 +1,4 @@
-import speech_recognition as sr
+import speech_recognition as sr #pip install SpeechRecognition
 import csv
 
 haber_list = open('haber_list.csv','w')
