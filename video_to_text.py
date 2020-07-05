@@ -22,7 +22,7 @@ with file as source:
     result = r.recognize_google(audio, language='tr')
 
 print(result)
-text_file = open("Output.txt", "w")
+text_file = open("haber_1_besiktas_o.txt", "w")
 text_file.write("Besiktas Sampiyonlugu\n")
 text_file.write(result)
 text_file.close()
